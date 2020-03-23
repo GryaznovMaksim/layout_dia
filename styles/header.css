@@ -62,11 +62,17 @@
     @media (max-width: 1070px) {
       .header__hire {
         font-size: 30px; } }
+    .header__hire:focus {
+      outline: none;
+      color: red; }
     @media (max-width: 1070px) {
       .header__hire {
         display: none; } }
   .header__logo {
     margin-right: 78px; }
+    .header__logo:focus {
+      outline: none;
+      color: red; }
     @media (max-width: 1070px) {
       .header__logo {
         z-index: 1; } }
@@ -143,6 +149,9 @@
   @media (max-width: 1070px) {
     .header-navbar__link {
       font-size: 30px; } }
+  .header-navbar__link:focus {
+    outline: none;
+    color: red; }
 
 .nav__link {
   font-weight: 700;
@@ -176,6 +185,9 @@
   @media (max-width: 1070px) {
     .nav__link {
       font-size: 30px; } }
+  .nav__link:focus {
+    outline: none;
+    color: red; }
 
 .nav__item-footer {
   position: relative;
